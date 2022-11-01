@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+/*--------------------fontes--------------------*/
+
+
+/*----------------------------fontes----------------------------*/
+
+/*--------------------montserifOnlyTwo--------------------*/
+
+@font-face {
+    font-family: montserif;
+    src: url(/utilitários/Fontes/montserif/Fontfabric\ -\ Mont\ ExtraLight\ DEMO.otf);
+}
+
+@font-face {
+    font-family: montserifbold;
+    src: url(/utilitários/Fontes/montserif/Fontfabric\ -\ Mont\ Heavy\ DEMO.otf);
+}
+
+/*--------------------montserrat--------------------*/
+
+@font-face {
+    font-family: montserrat;
+    src: url(/utilitários/Fontes/montserrat/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: montserratlight;
+    src: url(/utilitários/Fontes/montserrat/Montserrat-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: montserratbold;
+    src: url(/utilitários/Fontes/montserrat/Montserrat-SemiBold.otf);
+}
+
+/*--------------------mssansserifOnlyDefault--------------------*/
+
+@font-face {
+    font-family: mssansserif;
+    src: url(/utilitários/Fontes/mssansserif/microsoft-sans-serif.ttf);
+}
+
+/*--------------------quicksand--------------------*/
+
+@font-face {
+    font-family: quicksand;
+    src: url(/utilitários/Fontes/quicksand/Quicksand_Light.otf);
+}
+
+@font-face {
+    font-family: quicksandbold;
+    src: url(/utilitários/Fontes/quicksand/Quicksand_Bold.otf);
+}
+
+@font-face {
+    font-family: quicksandbook;
+    src: url(/utilitários/Fontes/quicksand/Quicksand_Book.otf);
+}
+
+/*--------------------sansation--------------------*/
+
+@font-face {
+    font-family: sansation;
+    src: url(/utilitários/Fontes/sansation/Sansation_Light.ttf);
+}
+
+@font-face {
+    font-family: sansationbold;
+    src: url(/utilitários/Fontes/sansation/Sansation_Bold.ttf);
+}
+
+
+/*=====================menu==================================*/
+header {
+    background-color: rgb(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: fixed;
+    width: 100%;
+}
+
+.menu-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+    padding: 20px 0 15px 0;
+}
+
+/*--------------------logo--------------------*/
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: sansationbold;
+}
+
+.logo-img {
+    width: 30px;
+    height: fit-content;
+    padding-right: 0.5em;
+}
+
+.textLogo {}
+
+/*--------------------menu--------------------*/
+
+.menuHeader {
+    display: flex;
+    font-size: 20px;
+    font-family: mssansserif;
+}
+
+.btnMenu {
+    color: lightgray;
+    padding-left: 10rem;
+    white-space: nowrap;
+}
+
+/*=====================inicio==================================*/
+
+#inicio {
+    display: flex;
+    padding-top: 8em;
+}
+
+/*--------------------Left--------------------*/
+
+.leftInicio {}
+
+.welcomeInicio {
+    padding: 10em 2em 5em 2em;
+}
+
+.cvWelcomeIn, .cvWelcomeIn-p2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 4 5px;
+    font-family: mssansserif;
+    line-height: 80px;
+}
+
+.cvWelcomeIn-p {
+    color: blue;
+    white-space: nowrap;
+    height: min-content;
+    padding: 0 0.2em;
+}
+
+.cvWelcomeIn, .cvWelcomeIn-p {
+    display: flex;
+    white-space: nowrap;
+}
+
+.cvWelcomeIn-p2 {}
+
+.citationInicio {}
+
+.authorCitationIni {}
+
+.imgLeftInicio {}
+
+.leftInicio-img {
+    width: 0em;
+}
+
+/*--------------------Right-Inicio--------------------*/
+
+.rightInicio {}
+
+.degradeImg {
+    text-align: right;
+    background-color: white;
+    height: 10vw;
+}
+
+.degradeImg2 {
+    background-color: blueviolet;
+    z-index: 1;
+    width: 20em;
+    height: 1vw;
+}
+
+.rightInicio-img {
+    width: 40%;
+    z-index: 0;
+}
+
+.warningRightIni {}
+
+.warningRight-img {}
+
+.textWarningIn {}
+
+/*--------------------thankfull--------------------*/
+
+#thankfull {
+    font-size: 6rem;
+    font-family: mssansserif;
+    font-weight: bold;
+    text-align: center;
+    padding: 2.5em 2% 3em 2%;
+}
+
+/*--------------------menuFooter--------------------*/
+
+.menuFooter {
+    padding: 0 0 5% 5%;
+}
+
+.btnMenuFooter-a {}
+
+.btnMenuFooter {
+    font-size: 2.5rem;
+    font-family: mssansserif;
+    color: lightgray;
+    line-height: 2.5em;
+    text-decoration: underline;
+    width: min-content;
+    white-space: nowrap;
+}
+
+/*----------menuftr-hover----------*/
+
+.btnMenuFooter-a:hover {
+    opacity: 0.7;
+}
+
+/*=====================footer==================================*/
+
+footer {
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 2.5em;
+    margin: 0 2%;
+
+}
+
+/*--------------------contatos--------------------*/
+
+.contatos {
+    display: flex;
+    margin-left: 3%;
+    padding-top: 2em;
+    width: 25em;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.contatos-img {
+    width: 25px;
+}
+
+/*----------ctts-hover----------*/
+
+.contatos-img:hover {
+    width: 30px;
+    opacity: 0.7;
+}
+
+/*--------------------copyright--------------------*/
+
+.containerCopyright {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    font-family: montserrat;
+    letter-spacing: 1.5px;
+    margin-right: 3%;
+    padding-top: 1.5em;
+    width: 100%;
+}
+
+.copyright {
+    color: rgb(195, 195, 195);
+}
+
+.copyright-img {
+    width: 30px;
+    padding-left: 15px;
+}
+
+@media (max-width: 500px) {
+    .menuHeader {
+        display: none;
+    }
+#inicio{
+    display: none;
+}
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerCopyright {
+        justify-content: center;
+        align-items: center;
+    }
+
+}

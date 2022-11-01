@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: mssansserif;
+}
+
+html {
+    font-size: 65%;
+}
+
+body {
+    background-color: black;
+}
+
+/*----------------------------fontes----------------------------*/
+
+/*--------------------josefin--------------------*/
+
+@font-face {
+    font-family: josefinsanslight;
+    src: url('/Versão\ Alpha/Utilitários/Fontes/josefinsans/JosefinSans-Light.ttf');
+}
+
+@font-face {
+    font-family: josefinsans;
+    src: url('/Versão\ Alpha/Utilitários/Fontes/josefinsans/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: josefinsanssemibold;
+    src: url('/Versão\ Alpha/Utilitários/Fontes/josefinsans/JosefinSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: josefinsansbold;
+    src: url('/Versão\ Alpha/Utilitários/Fontes/josefinsans/JosefinSans-Bold.ttf');
+}
+
+/*--------------------montserifOnlyTwo--------------------*/
+
+@font-face {
+    font-family: montserif;
+    src: url('/Versão\ Alpha/Utilitários/Fontes/montserif/Fontfabric\ -\ Mont\ ExtraLight\ DEMO.otf');
+}
+
+@font-face {
+    font-family: montserifbold;
+    src: url('/Versão\ Alpha/Utilitários/Fontes/montserif/Fontfabric\ -\ Mont\ Heavy\ DEMO.otf');
+}
+
+/*--------------------montserrat--------------------*/
+
+@font-face {
+    font-family: montserrat;
+    src: url(/Versão\ Alpha/Utilitários/Fontes/montserrat/Montserrat-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: montserratsemibold;
+    src: url(/Versão\ Alpha/Utilitários/Fontes/montserrat/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: montserratbold;
+    src: url(/Versão\ Alpha/Utilitários/Fontes/montserrat/Montserrat-SemiBold.otf);
+}
+
+/*--------------------mssansserifOnlyDefault--------------------*/
+
+@font-face {
+    font-family: mssansserif;
+    src: url('/Versão\ Alpha/Utilitários/Fontes/mssansserif/microsoft-sans-serif.ttf');
+}
+
+/*--------------------quicksand--------------------*/
+
+@font-face {
+    font-family: quicksand;
+    src: url(/Versão\ Alpha/Utilitários/Fontes/quicksand/Quicksand_Light.otf);
+}
+
+@font-face {
+    font-family: quicksandbold;
+    src: url(/Versão\ Alpha/Utilitários/Fontes/quicksand/Quicksand_Bold.otf);
+}
+
+@font-face {
+    font-family: quicksandbook;
+    src: url(/Versão\ Alpha/Utilitários/Fontes/quicksand/Quicksand_Book.otf);
+}
+
+/*--------------------sansation--------------------*/
+
+@font-face {
+    font-family: sansation;
+    src: url(/Versão\ Alpha/Utilitários/Fontes/sansation/Sansation_Light.ttf);
+}
+
+@font-face {
+    font-family: sansationbold;
+    src: url(/Versão\ Alpha/Utilitários/Fontes/sansation/Sansation_Bold.ttf);
+}
+
+/*--------------------josefin--------------------*/
+
+@font-face {
+    font-family: worksanslight;
+    src: url('/Versão\ Alpha/Utilitários/Fontes/worksans/WorkSans-Light.ttf');
+}
+
+@font-face {
+    font-family: worksans;
+    src: url('/Versão\ Alpha/Utilitários/Fontes/worksans/WorkSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: worksanssemibold;
+    src: url('/Versão\ Alpha/Utilitários/Fontes/worksans/WorkSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: worksansbold;
+    src: url('/Versão\ Alpha/Utilitários/Fontes/worksans/WorkSans-Bold.ttf');
+}
+
+
+/*=====================projetos==================================*/
+
+#projetos {
+    background-color: rgba(10, 10, 10, 1);
+    font-family: arial;
+    color: white;
+    padding: 0 5%;
+}
+
+.titleProjetos {
+    text-align: right;
+    font-size: 3.5rem;
+    font-family: worksans;
+    padding: 1em 0 1em 0;
+}
+
+.menuProjetos {
+    display: flex;
+}
+
+.eachProjetos {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 4rem;
+    margin: 6em 2rem;
+    width: 40rem;
+}
+
+.titleProj {
+    font-size: 2.1rem;
+    font-family: mssansserif;
+    padding-bottom: 3rem;
+}
+
+.textProj {
+    font-family: arial;
+    color: lightgray;
+}
+
+.entrarProj {
+    font-size: 2rem;
+    font-family: josefinsanssemibold;
+    color: rgb(65, 105, 225);
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.legendProjetos {
+    font-size: 2rem;
+    text-align: right;
+    color: rgb(199, 199, 199);
+    padding-bottom: 5rem;
+}
+
+.entrarProj:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/*--------------------thankfull--------------------*/
+
+@media (max-width: 1000px) {
+    .eachProjetos {
+        margin: 5em 0.4rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #projetos {
+        padding: 0 2%;
+    }
+
+    .menuProjetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eachProjetos {
+        width: 70%;
+        height: 20rem;
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 58%;
+    }
+
+    .eachProjetos {
+        width: 90%;
+        height: 20rem;
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 375px) {
+    html {
+        font-size: 55%;
+    }
+}
